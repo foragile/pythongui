@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# author:洪卫
 
 import tkinter as tk  # 使用Tkinter前需要先导入
 import tkinter.messagebox
@@ -20,7 +19,7 @@ canvas = tk.Canvas(window, width=400, height=135, bg='green')
 image_file = tk.PhotoImage(file='pic.gif')
 image = canvas.create_image(200, 0, anchor='n', image=image_file)
 canvas.pack(side='top')
-tk.Label(window, text='Wellcome', font=('Arial', 16)).pack()
+tk.Label(window, text='Welcome', font=('Arial', 16)).pack()
 
 # 第5步，用户信息
 tk.Label(window, text='User name:', font=('Arial', 14)).place(x=10, y=170)

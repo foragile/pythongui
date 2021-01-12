@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# author:洪卫
 
 import tkinter as tk  # 使用Tkinter前需要先导入
 
